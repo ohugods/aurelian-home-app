@@ -1,5 +1,52 @@
-﻿{
+{
   "rewrites": [
-    { "source": "/screens/:path*", "destination": "/src/screens/:path*" }
+    {
+      "source": "/screens/configura_es_de_dispositivo.html",
+      "destination": "/src/screens/devices.html"
+    },
+    {
+      "source": "/src/screens/configura_es_de_dispositivo.html",
+      "destination": "/src/screens/devices.html"
+    },
+    {
+      "source": "/screens/dashboard_aura_home.html",
+      "destination": "/src/screens/dashboard.html"
+    },
+    {
+      "source": "/src/screens/dashboard_aura_home.html",
+      "destination": "/src/screens/dashboard.html"
+    },
+    {
+      "source": "/screens/consumo_de_energia.html",
+      "destination": "/src/screens/climate.html"
+    },
+    {
+      "source": "/src/screens/consumo_de_energia.html",
+      "destination": "/src/screens/climate.html"
+    },
+    {
+      "source": "/screens/seguran_a.html",
+      "destination": "/src/screens/security.html"
+    },
+    {
+      "source": "/src/screens/seguran_a.html",
+      "destination": "/src/screens/security.html"
+    },
+    {
+      "source": "/screens/automa_es.html",
+      "destination": "/src/screens/automations.html"
+    },
+    {
+      "source": "/src/screens/automa_es.html",
+      "destination": "/src/screens/automations.html"
+    },
+    {
+      "source": "/screens/ilumina_o.html",
+      "destination": "/src/screens/lighting.html"
+    },
+    {
+      "source": "/src/screens/ilumina_o.html",
+      "destination": "/src/screens/lighting.html"
+    }
   ]
 }
