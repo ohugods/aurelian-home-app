@@ -313,23 +313,23 @@
 </div>
 </div>
 </main>
-<!-- BottomNavBar -->
-<nav class="fixed bottom-0 left-0 w-full h-20 z-50 flex justify-around items-center px-8 pb-safe pt-3 bg-white/90 dark:bg-stone-950/90 backdrop-blur-2xl border-t border-stone-100 dark:border-stone-800 rounded-t-[2rem] shadow-[0_-10px_40px_rgba(0,0,0,0.03)] md:hidden" aria-label="Primary navigation">
-<a href="dashboard_aura_home.html" role="button" class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-all Active: opacity-80 scale-90 transition-transform">
-<span class="material-symbols-outlined mb-1">home_max</span>
-<span class="font-['Inter'] text-[10px] tracking-tighter font-medium">HOME</span>
+<!-- BottomNavBar (mesmo padrão do Dashboard: Dashboard / Devices / Climate / Security) -->
+<nav class="fixed bottom-0 left-0 w-full h-20 z-50 flex justify-around items-center px-6 pb-safe pt-3 bg-white/90 dark:bg-neutral-950/90 backdrop-blur-2xl rounded-t-xl border-t border-amber-100/10 shadow-[0_-10px_40px_rgba(184,115,51,0.05)] md:hidden" aria-label="Primary navigation">
+<a aria-current="page" class="flex flex-col items-center justify-center text-amber-700 dark:text-amber-500 transition-colors duration-300 scale-90 transition-transform" href="dashboard_aura_home.html">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-wide uppercase">Dashboard</span>
 </a>
-<a href="automa_es.html" role="button" class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-500 bg-orange-50/30 dark:bg-orange-950/20 rounded-xl px-3 py-1 hover:text-orange-600 transition-all Active: opacity-80 scale-90 transition-transform">
-<span class="material-symbols-outlined mb-1">auto_awesome</span>
-<span class="font-['Inter'] text-[10px] tracking-tighter font-medium">SCENES</span>
+<a class="flex flex-col items-center justify-center text-neutral-400 dark:text-neutral-600 hover:text-amber-600 dark:hover:text-amber-400 transition-colors" href="configura_es_de_dispositivo.html">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">lightbulb</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-wide uppercase">Devices</span>
 </a>
-<a href="configura_es_de_dispositivo.html" role="button" class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-all Active: opacity-80 scale-90 transition-transform">
-<span class="material-symbols-outlined mb-1">devices_other</span>
-<span class="font-['Inter'] text-[10px] tracking-tighter font-medium">DEVICES</span>
+<a class="flex flex-col items-center justify-center text-neutral-400 dark:text-neutral-600 hover:text-amber-600 dark:hover:text-amber-400 transition-colors" href="consumo_de_energia.html">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">thermostat</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-wide uppercase">Climate</span>
 </a>
-<a href="seguran_a.html" role="button" class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-all Active: opacity-80 scale-90 transition-transform">
-<span class="material-symbols-outlined mb-1">shield_with_heart</span>
-<span class="font-['Inter'] text-[10px] tracking-tighter font-medium">SECURITY</span>
+<a class="flex flex-col items-center justify-center text-neutral-400 dark:text-neutral-600 hover:text-amber-600 dark:hover:text-amber-400 transition-colors" href="seguran_a.html">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">shield</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-wide uppercase">Security</span>
 </a>
 </nav>
 </body></html>
